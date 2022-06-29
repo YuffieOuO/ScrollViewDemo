@@ -45,10 +45,9 @@
             </objects>
             <point key="canvasLocation" x="894.20289855072474" y="51.358695652173914"/>
         </scene>
-        <!--果思設計-->
+        <!--設計-->
         <scene sceneID="P2x-Yv-jVu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zxr-b9-WmD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="Second" id="61y-kS-YeM" customClass="SecondVC" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pBf-Sa-dgH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
@@ -77,16 +76,16 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Qxn-ZR-18t">
-                                                    <rect key="frame" x="15" y="65" width="81.666666666666671" height="45"/>
+                                                    <rect key="frame" x="14.999999999999996" y="65" width="53.666666666666657" height="45"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="果思設計" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rty-a4-fmj">
-                                                            <rect key="frame" x="0.0" y="0.0" width="81.666666666666671" height="24"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="設計" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rty-a4-fmj">
+                                                            <rect key="frame" x="0.0" y="0.0" width="53.666666666666664" height="24"/>
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IOS APP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8K-SN-Oze">
-                                                            <rect key="frame" x="0.0" y="28" width="81.666666666666671" height="17"/>
+                                                            <rect key="frame" x="0.0" y="28" width="53.666666666666664" height="17"/>
                                                             <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -107,11 +106,12 @@
                         <viewLayoutGuide key="safeArea" id="zRh-FP-2QR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="果思設計" id="cu2-CZ-ruy"/>
+                    <navigationItem key="navigationItem" title="設計" id="cu2-CZ-ruy"/>
                     <connections>
                         <outlet property="collectionView" destination="Y5g-HQ-clh" id="QSB-Qq-pnp"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zxr-b9-WmD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1786.9565217391305" y="50.54347826086957"/>
         </scene>
