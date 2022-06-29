@@ -14,6 +14,7 @@
 		90797384280B0E6B002DEB39 /* Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90797382280B0E6B002DEB39 /* Demo.xcdatamodeld */; };
 		90797386280B0E71002DEB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90797385280B0E71002DEB39 /* Assets.xcassets */; };
 		90797389280B0E71002DEB39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90797387280B0E71002DEB39 /* LaunchScreen.storyboard */; };
+		90797393280B0FBF002DEB39 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90797392280B0FBF002DEB39 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		90797385280B0E71002DEB39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90797388280B0E71002DEB39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9079738A280B0E71002DEB39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90797392280B0FBF002DEB39 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				9079737B280B0E6B002DEB39 /* SceneDelegate.swift */,
 				9079737D280B0E6B002DEB39 /* ViewController.swift */,
 				9079737F280B0E6B002DEB39 /* Main.storyboard */,
+				90797392280B0FBF002DEB39 /* SecondVC.swift */,
 				90797385280B0E71002DEB39 /* Assets.xcassets */,
 				90797387280B0E71002DEB39 /* LaunchScreen.storyboard */,
 				9079738A280B0E71002DEB39 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90797393280B0FBF002DEB39 /* SecondVC.swift in Sources */,
 				9079737E280B0E6B002DEB39 /* ViewController.swift in Sources */,
 				9079737A280B0E6B002DEB39 /* AppDelegate.swift in Sources */,
 				90797384280B0E6B002DEB39 /* Demo.xcdatamodeld in Sources */,

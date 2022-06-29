@@ -11,9 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+        let image = UIImage(named: "backIcon")?.withRenderingMode(.alwaysOriginal)
+        self.navigationController?.navigationBar.backIndicatorImage = image
+        self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = image
     }
-
-
 }
 
